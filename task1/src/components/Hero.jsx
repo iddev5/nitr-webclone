@@ -10,7 +10,7 @@ export default function Hero() {
                 <img className="rounded-lg" src={hero} />
             </div>
 
-            <div className="absolute top-0 left-0 w-full h-full">
+            <div className="md:absolute relative top-0 left-0 w-full h-full">
                 <div className="container mx-auto px-4 h-full flex items-center">
                 <div className="bg-white p-8 rounded-xl shadow-xl max-w-lg">
                     <h1 className="text-2xl md:text-4xl font-bold mb-2">Holiday rentals in India</h1>
